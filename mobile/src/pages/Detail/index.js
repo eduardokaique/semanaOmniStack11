@@ -61,8 +61,9 @@ export default function Detail() {
             <View style={styles.contactBox}>
                 <Text style={styles.heroTitle}>Salve o dia!</Text>
                 <Text style={styles.heroTitle}>Seja herói desse caso.</Text>
-
+            
                 <Text style={styles.heroDescription}> Entre em contato:</Text>
+            <View style={styles.actions}>
                     <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
                         <Text style={styles.actionText}>Whatsapp</Text>
                     </TouchableOpacity>
@@ -71,7 +72,7 @@ export default function Detail() {
                         <Text style={styles.actionText}>E-mail</Text>
                     </TouchableOpacity>
                 <View style={styles.actions}>
-
+            </View>
                 </View>
             </View>
         </View>
